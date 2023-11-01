@@ -1,0 +1,10 @@
+.page {
+  font-style: normal;
+  color: white;
+  margin: 0 auto;
+  max-width: 1280px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Inter", Arial, sans-serif;
+  position: relative;
+}

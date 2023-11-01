@@ -1,0 +1,40 @@
+.navtab {
+    margin: 0;
+    max-width: 1280px;
+    min-height: 66px;
+    background-color: black;
+    display: flex;
+}
+
+.navtab__list {
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    list-style: none;
+
+}
+
+.navtab__list-p {
+    list-style-type: none;
+    color: #FFF;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    text-decoration-line: underline;
+    margin: 0 40px 0 0;
+}
+
+.navtab__list-p:last-of-type {
+    margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+
+    .navtab__list-p {
+        font-size: 11px;
+        margin-right: 24px;
+    }
+
+}

@@ -1,0 +1,16 @@
+.element__bin {
+    width: 19px;
+    height: 18px;
+    /* background-image: url(../../../images/bin.svg); */
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+.element__bin:hover {
+    opacity: 0.5;
+
+}

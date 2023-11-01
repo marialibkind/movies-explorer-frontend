@@ -1,0 +1,14 @@
+.registered__off {
+    display: block;
+    color: red;
+    border: none;
+    font-weight: 500;
+    margin: 0 0 30px;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

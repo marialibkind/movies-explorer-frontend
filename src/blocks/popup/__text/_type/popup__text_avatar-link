@@ -1,0 +1,12 @@
+.popup__text_type_avatar-link{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    border: none;
+    border-bottom: rgba(0, 0, 0, 0.2) 1px solid;
+    color: rgba(0, 0, 0);
+    width: 100%;
+    margin: 0 0 48px;
+    outline: none;
+    padding: 0;
+}

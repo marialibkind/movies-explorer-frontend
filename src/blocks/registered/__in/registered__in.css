@@ -1,0 +1,13 @@
+.registered__in{
+    display: block;
+    color: white;
+    background-color: black;
+    border: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0 0 30px;  
+    width:100%;
+    padding: 0;
+}
+
