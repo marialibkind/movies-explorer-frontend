@@ -1,0 +1,151 @@
+.student {
+    max-width: 1280px;
+    margin: 0;
+    padding: 110px 70px 50px;
+    background-color: white;
+    color: black;
+}
+
+.student__info {
+    margin: 0;
+    color: #000;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 1px solid #000;
+    padding-bottom: 20px;
+}
+.student__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 66px 0 0;
+}
+.student__name {
+    color: #000;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 58px;
+    margin: 0 0 18px 0;
+}
+
+.student__desc {
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    margin: 0 0 26px 0;
+}
+
+.student__story {
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    max-width: 600px;
+    margin: 0 0 99px 0;
+}
+
+.student__git {
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+    text-decoration: none;
+}
+
+.student__photo {
+    background: url(../../images/me.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 270px;
+    height: 327px;
+    margin: 0;
+    border-radius: 10px;
+}
+
+
+@media screen and (max-width: 1024px) {
+
+    .student {
+        padding: 90px 50px 45px;
+    }
+
+    .student__info {
+        font-size: 22px;
+    }
+    .student__container{
+        flex-direction: row;
+        margin-top: 0;
+    }
+    .student__name {
+        margin-top: 60px;
+        margin-bottom: 6px;
+        font-size: 40px;
+    }
+    .student__photo {
+        margin-top: 65px;
+        width: 290px;
+        height: 307px;
+    }
+
+    .student__desc {
+        font-size: 12px;
+        margin-bottom: 15px;
+    }
+
+    .student__story {
+        font-size: 12px;
+        margin-bottom: 150px;
+    }
+
+    .student__git {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .student__container{
+        flex-direction: column-reverse;
+       
+    }
+    .student {
+        padding: 75px 14px 72px;
+    }
+    .student__info {
+        font-size: 18px;
+        padding: 0 0 28px 0;
+    }
+    .student__photo {
+        width: 292px;
+        height: 350px;
+        margin-top: 60px;
+    }
+    .student__name {
+        margin-top: 30px;
+        margin-bottom: 8px;
+        font-size: 30px;
+    }
+
+    .student__desc {
+        font-size: 11px;
+        margin-bottom: 13px;
+    }
+
+    .student__story {
+        font-size: 11px;
+        margin-bottom: 110px;
+    }
+
+    .student__git {
+        font-size: 11px;
+    }
+}

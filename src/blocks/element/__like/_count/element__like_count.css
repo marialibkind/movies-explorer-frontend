@@ -1,0 +1,10 @@
+.element__like_count {
+   color: black;
+    max-width: 85%;
+    margin-top : 3px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15.73px;
+    text-align: center;
+    
+}
